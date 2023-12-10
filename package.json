@@ -1,0 +1,19 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "Карты вселенной в разных форматах",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npm run format:prettier",
+    "format:check": "npm run format:prettier:check",
+    "format:prettier": "prettier --write ./mapchart/data/*.json ./utils/*.js",
+    "format:prettier:check": "prettier --check ./mapchart/data/*.json ./utils/*.js"
+  },
+  "keywords": [],
+  "author": "artegoser",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
+}
